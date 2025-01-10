@@ -14,3 +14,10 @@ app.get('/', (req, res) => {
 app.listen(3000, () => {
     console.log('Server running at http://localhost:3000');
 });
+
+function linkedin(){
+    window.location.href = "https://www.linkedin.com/in/rishabh-bhardwajjj/"; 
+ }
+ unction download(){
+    window.location.href = "https://drive.google.com/file/d/1grlVcuSxVgf9FiGa10LQsoLpUiJ21mbQ/view?usp=share_link" download; 
+ }
