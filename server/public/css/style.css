@@ -63,7 +63,16 @@ body{
     color: #ffffff; 
     border-radius: 12px;
     
+}#nav_list .nav-link {
+    text-decoration: none; /* Remove default underline */
+    transition: all 0.3s ease;
 }
+
+#nav_list .nav-link:hover {
+    border-bottom: 3px solid white; /* Add a thick white underline */
+
+}
+
 .resume-btn {
     height: 50px;
     width: 150px;
@@ -89,4 +98,43 @@ body{
 
 .resume-btn:hover img {
     transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+/* Style for the buttons */
+.btn-competitions {
+    width: 100%;
+    height: 60px;
+    background-color: #ffc107; /* Yellow color */
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: all 0.3s ease;
+}
+
+.btn-competitions img {
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.btn-competitions:hover {
+    cursor: pointer;
+    background-color: black; /* Change to black on hover */
+    color: white;
+}
+
+.btn-competitions:hover img {
+    transform: rotate(15deg); /* Optional: Add rotation effect on hover */
+}
+
+/* Responsive layout for buttons */
+@media (max-width: 768px) {
+    .btn-competitions {
+        height: 50px;
+        font-size: 14px;
+    }
 }
