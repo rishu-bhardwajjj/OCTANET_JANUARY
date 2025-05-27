@@ -18,9 +18,9 @@
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" id="nav_list">
                     <li><a href="#" class="nav-link px-4 text-white">Home</a></li>
                     <li><a href="#skills" class="nav-link px-4 text-white">Skills</a></li>
-                    <li><a href="#proflinks" class="nav-link px-4 text-white">Profile Links</a></li>
-                    <!-- <li><a href="#" class="nav-link px-4 text-white">Connect</a></li> -->
-                    <li><a href="https://github.com/rishu-bhardwajjj" class="nav-link px-4 text-white">Projects</a></li>
+                    <li><a href="#" class="nav-link px-4 text-white">Profile Links</a></li>
+                    <li><a href="#" class="nav-link px-4 text-white">Connect</a></li>
+                    <li><a href="#" class="nav-link px-4 text-white">Projects</a></li>
                 </ul>
     
                 <div class="text-end">
@@ -179,85 +179,33 @@
             </div>
         </div>
 
-        <div class="skills" id="proflinks">
+        <div class="skills">
             <h2 style="color: rgb(255, 208, 0); display: flex; flex-direction: column;">Profile Links</h2>
-            
             <div class="row">
                 <!-- LeetCode Button -->
                 <div class="col-md-4">
-                    <button class="btn" 
-                            style="background: white; border: 2px solid #f89f1b; color: black;"
-                            onmouseover="plinksbtns(this, 'linear-gradient(115deg, #f89f1b, #ffcc00)')"
-                            onmouseout="plinksbtns(this, 'white')">
+                    <button class="btn btn-competitions" onmouseover="changeButtonColor(true, 'btn1')" onmouseout="changeButtonColor(false, 'btn1')">
                         <img src="./leetcode.svg" style="height: 40px; width: 40px;" class="logo">
-                        LeetCodeq
+                        LeetCode
                     </button>
                 </div>
-            
                 <!-- HackerRank Button -->
                 <div class="col-md-4">
-                    <button class="btn" 
-                            style="background: white; border: 2px solid #2db92d; color: black;"
-                            onmouseover="plinksbtns(this, 'linear-gradient(115deg, #2db92d, #008000)')"
-                            onmouseout="plinksbtns(this, 'white')">
+                    <button class="btn btn-competitions" onmouseover="changeButtonColor(true, 'btn2')" onmouseout="changeButtonColor(false, 'btn2')">
                         <img src="./hackerrank.svg" style="height: 40px; width: 40px;" class="logo">
                         HackerRank
                     </button>
                 </div>
-            
                 <!-- CodeChef Button -->
                 <div class="col-md-4">
-                    <button class="btn" 
-                            style="background: white; border: 2px solid #794a34; color: black;"
-                            onmouseover="plinksbtns(this, 'linear-gradient(115deg, #794a34, #f5a623)')"
-                            onmouseout="plinksbtns(this, 'white')">
+                    <button class="btn btn-competitions" onmouseover="changeButtonColor(true, 'btn3')" onmouseout="changeButtonColor(false, 'btn3')">
                         <img src="./codechef.svg" style="height: 40px; width: 40px;" class="logo">
                         CodeChef
                     </button>
                 </div>
             </div>
             
-            <div class="row">
-                <!-- Coding Ninjas Button -->
-                <div class="col-md-4">
-                    <button class="btn" 
-                            style="background: white; border: 2px solid #ff6d00; color: black;"
-                            onmouseover="plinksbtns(this, 'linear-gradient(115deg, #ff6d00, #ff3c00)')"
-                            onmouseout="plinksbtns(this, 'white')">
-                        <img src="./leetcode.svg" style="height: 40px; width: 40px;" class="logo">
-                        Coding Ninjas
-                    </button>
-                </div>
-            
-                <!-- GeeksForGeeks Button -->
-                <div class="col-md-4">
-                    <button class="btn" 
-                            style="background: white; border: 2px solid #026635; color: black;"
-                            onmouseover="plinksbtns(this, 'linear-gradient(115deg, #026635, #00c853)')"
-                            onmouseout="plinksbtns(this, 'white')">
-                        <img src="./geeksforgeeks.svg" style="height: 40px; width: 40px;" class="logo">
-                        GeeksForGeeks
-                    </button>
-                </div>
-            
-                <!-- Instagram Button -->
-                <div class="col-md-4">
-                    <button class="btn" 
-                            style="background: white; border: 2px solid #d6249f; color: black;"
-                            onmouseover="plinksbtns(this, 'linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7)')"
-                            onmouseout="plinksbtns(this, 'white')">
-                        <img src="./codechef.svg" style="height: 40px; width: 40px;" class="logo">
-                        Instagram
-                    </button>
-                </div>
-            </div>
-            
-            <script>
-                function plinksbtns(element, color) {
-                    element.style.background = color;
-                }
-            </script>
-            
+
  
 </body>
 </html>
